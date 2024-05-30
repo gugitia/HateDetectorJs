@@ -24,19 +24,26 @@ export default function About() {
             Quando ele recebe uma mensagem de entrada,o texto é vetorizado para
             um padrão de linguagem que a ia desenvolveu para reconhecer as
             frases e então ela faz a analise e retorna um numero real entre 0 e
-            1
+            1.
           </p>
           <h4>O dataset</h4>
           <p>
             O dataset foi utilizado para ensinar para a ia os padrões de frases
             hostis, ela recebeu essas informações em forma de vetores e criou um
-            padrão de linguagem unico para interpretar futuras sentenças
+            padrão de linguagem unico para interpretar futuras sentenças.
           </p>
           <p>
-            É um dataset publico disponivel na keggle pelo link abaixo, algumas
-            coisas que são hostis podem passar despercebidas por limitação do
-            dataset perante a capacidade do ser humano encontrar formas de
-            ofender alguem.
+            É um dataset publico disponivel na keggle pelo{" "}
+            <a
+              href="https://www.kaggle.com/datasets/konradb/ethos-hate-speech-dataset/data"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              link
+            </a>
+            , algumas coisas que são hostis podem passar despercebidas por
+            limitação do dataset perante a capacidade do ser humano encontrar
+            formas de ofender alguem.
           </p>
           <h4>A api</h4>
           <p>
@@ -48,7 +55,7 @@ export default function About() {
           <p>
             A api foi inicialmente feita em python durante meus anos de
             faculdade, mas para essa versão do projeto decidi recria-la
-            utilizando apenas node.
+            utilizando node.
           </p>
           <h4>O Front-end</h4>
           <p>

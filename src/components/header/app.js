@@ -12,13 +12,13 @@ export default function Header() {
         </Link>
         <ul>
           <Link className="link" to="/author">
-            <li>Autor</li>
+            <li>Autor |</li>
           </Link>
           <Link className="link" to="/about">
-            <li>Sobre</li>
+            <li>Sobre o projeto |</li>
           </Link>
           <Link className="link" to="/contact">
-            <li>Contato</li>
+            <li>Contato |</li>
           </Link>
         </ul>
       </div>

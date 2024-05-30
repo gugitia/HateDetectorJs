@@ -2,7 +2,7 @@
   width: 700px;
   background-color: darkred;
   margin: 0 auto;
-  margin-top: -40px;
+  margin-top: -100px;
   padding: 30px;
   color: azure;
   border-radius: 20px;
@@ -16,7 +16,18 @@
 }
 
 .main-about h2 {
-  margin: 80px;
+  margin: 60px;
   margin-left: 200px;
   width: 300px;
+  height: 150px;
+}
+
+.text a {
+  text-decoration: none;
+  color: rgb(241, 157, 0);
+}
+
+.text a:hover {
+  background-color: rgb(218, 8, 8);
+  border-radius: 7px;
 }

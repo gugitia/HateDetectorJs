@@ -1,0 +1,22 @@
+.text-author {
+  width: 600px;
+  background-color: darkred;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px;
+  color: azure;
+  border-radius: 20px;
+}
+
+.main-author {
+  background-color: rgb(255, 175, 172);
+  margin: -8px;
+  padding-top: 8px;
+  height: 980px;
+}
+
+.main-author h2 {
+  margin-top: 50px;
+  margin-left: 250px;
+  width: 300px;
+}

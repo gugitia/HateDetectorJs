@@ -1,0 +1,11 @@
+.download button {
+  margin-left: 25px;
+  background-color: darkred;
+  color: azure;
+  border: none;
+}
+
+.download button:hover {
+  background-color: rgb(218, 8, 8);
+  border-radius: 7px;
+}

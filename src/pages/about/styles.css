@@ -1,0 +1,22 @@
+.text {
+  width: 700px;
+  background-color: darkred;
+  margin: 0 auto;
+  margin-top: -40px;
+  padding: 30px;
+  color: azure;
+  border-radius: 20px;
+}
+
+.main-about {
+  background-color: rgb(255, 175, 172);
+  margin: -8px;
+  padding-top: 8px;
+  height: 980px;
+}
+
+.main-about h2 {
+  margin: 80px;
+  margin-left: 200px;
+  width: 300px;
+}

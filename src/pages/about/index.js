@@ -62,6 +62,10 @@ export default function About() {
             O frontEnd foi feito no primeiro projeto utilizando a tecnologia
             Razor, dessa vez decidi desenvolver mais e trabalhar com o React.
           </p>
+          <h4>
+            Link do repositorio{" "}
+            <a href="https://github.com/gugitia/HateDetectorJs">aqui</a>
+          </h4>
         </div>
       </div>
     </div>

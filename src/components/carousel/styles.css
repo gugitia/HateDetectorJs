@@ -1,6 +1,6 @@
 .side-images img {
-  width: 630px;
-  height: 350px;
+  width: 600px;
+  height: 320px;
   margin-right: 15px;
   margin-top: 20px;
 }
@@ -11,15 +11,17 @@
   opacity: 0.8;
 }
 .btn1 {
-  margin-right: -10px;
+  margin-left: -10px;
+  float: left;
 }
 .btn2 {
-  margin-left: 1270px;
+  margin-left: 1200px;
+  float: right;
 }
 
 .btn1,
 .btn2 {
   border: none;
   background-color: transparent;
-  float: inherit;
+  position: absolute;
 }

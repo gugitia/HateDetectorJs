@@ -32,6 +32,12 @@ const Carousel = () => {
 
   return (
     <div className="carousel">
+      <button onClick={prevImage} className="btn1">
+        <FiArrowLeft size={16} />
+      </button>
+      <button onClick={nextImage} className="btn2">
+        <FiArrowRight size={16} />
+      </button>
       <div className="side-images">
         <img
           src={images[(currentImageIndex + 1) % images.length].url}
@@ -42,12 +48,6 @@ const Carousel = () => {
           alt={images[(currentImageIndex + 2) % images.length].title}
         />
       </div>
-      <button onClick={prevImage} className="btn1">
-        <FiArrowLeft size={16} />
-      </button>
-      <button onClick={nextImage} className="btn2">
-        <FiArrowRight size={16} />
-      </button>
     </div>
   );
 };

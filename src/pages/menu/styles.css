@@ -1,18 +1,35 @@
-.main {
+.main-menu {
   background-color: rgb(255, 175, 172);
   margin: -8px;
   padding-top: 8px;
-  height: 500px;
+  height: 600px;
 }
 
 .form {
   text-align: center;
   margin-left: 480px;
   margin-top: 50px;
-  width: 400px;
+  width: 500px;
   height: 300px;
   background-color: darkred;
   border-radius: 20px;
+}
+
+@media (max-width: 750px) {
+  .form {
+    width: 400px;
+    margin-left: 330px;
+  }
+}
+
+@media (max-width: 450px) {
+  .form {
+    width: 400px;
+    margin-left: 100px;
+  }
+  .summary {
+    margin-top: 350px;
+  }
 }
 
 .form h1 {
@@ -44,7 +61,6 @@
 }
 
 .summary {
-  float: right;
   margin-top: -200px;
   margin-right: 70px;
 }

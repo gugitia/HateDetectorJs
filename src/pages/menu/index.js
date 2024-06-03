@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import "./styles.css";
+import "../../global.css";
 
 import Header from "../../components/header/app";
 
@@ -35,13 +36,16 @@ export default function Menu() {
     }
   }
   useEffect(() => {
-    console.log(option); // Isso será chamado sempre que 'option' mudar
+    console.log(option);
   }, [option]);
 
   return (
     <div className="app">
-      <Header />
-      <div className="main">
+      <header>
+        <Header />
+      </header>
+
+      <div className="main-menu">
         <section className="form">
           <form onSubmit={handlePrediction}>
             <h1> Digite uma frase em ingles</h1>
@@ -60,11 +64,11 @@ export default function Menu() {
         </section>
         <div className="summary">
           <ul>
-            <li className={`predict-A`}>0.9 a 1 - Muito forte</li>
-            <li className={`predict-B`}>0.7 a 0.9 - Forte</li>
+            <li className={`predict-A`}>0 a 0.3 - Despresivel</li>
+            <li className={`predict-B`}>0.3 a 0.5 - Fraca</li>
             <li className={`predict-C`}>0.5 a 0.7 - Moderada</li>
-            <li className={`predict-D`}>0.3 a 0.5 - Fraca</li>
-            <li className={`predict-E`}>0 a 0.3 - Despresivel</li>
+            <li className={`predict-D`}>0.7 a 0.9 - Forte</li>
+            <li className={`predict-E`}>0.9 a 1 - Muito forte</li>
           </ul>
         </div>
       </div>

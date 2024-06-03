@@ -8,6 +8,12 @@
   border-radius: 20px;
 }
 
+@media (max-width: 750px) {
+  .text-author {
+    width: 400px;
+  }
+}
+
 .main-author {
   background-color: rgb(255, 175, 172);
   margin: -8px;

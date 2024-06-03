@@ -11,7 +11,6 @@ import img4 from "../../assets/rc.png";
 
 const Carousel = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [autoPlayInterval, setAutoPlayInterval] = useState(null);
 
   const images = [
     { url: img1, title: "Imagem 1" },
@@ -19,7 +18,6 @@ const Carousel = () => {
     { url: img3, title: "Imagem 3" },
     { url: img4, title: "Imagem 4" },
   ];
-
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
@@ -29,6 +27,11 @@ const Carousel = () => {
       prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
   };
+
+  useEffect(() => {
+    setCurrentImageIndex(Math.floor(Math.random() * 4));
+    console.log(currentImageIndex);
+  }, []);
 
   return (
     <div className="carousel">

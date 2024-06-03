@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./styles.css";
+import "../../global.css";
 
 import Header from "../../components/header/app";
 import Carousel from "../../components/carousel/app";
@@ -8,7 +9,9 @@ import Carousel from "../../components/carousel/app";
 export default function Author() {
   return (
     <div className="app">
-      <Header />
+      <header>
+        <Header />
+      </header>
       <div className="main-author">
         <h2>Sobre mim</h2>
         <div className="text-author">

@@ -1,5 +1,17 @@
 ## About the project
+
 This project was started during my college days, it was first made with Razor, but as I got excited learning about js technologies I decided to remake it using React.
+
+# First time
+
+Before you run the project for the first time, you may need to run the command
+`npm install` if there is no node_modules folder.
+
+After that you can run the `npm start` command.
+
+Its important to note that the app consumes the api (https://github.com/gugitia/hatedetectorApi) to make the predictions with the ai.
+
+To run the api you just need to clone the repository and run `python3 app.py`.
 
 # Getting Started with Create React App
 

@@ -1,5 +1,5 @@
 ## About the project
-This project was started during my college days, it was first made with Razor, but as I got excited learning about js technologies I decided to remake it using React
+This project was started during my college days, it was first made with Razor, but as I got excited learning about js technologies I decided to remake it using React.
 
 # Getting Started with Create React App
 
